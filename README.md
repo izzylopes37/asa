@@ -2,6 +2,8 @@
 
 Este repositório reúne todos os arquivos, scripts e configurações desenvolvidos ao longo do semestre da disciplina **Administração de Sistemas Abertos**, pertencente ao curso superior de Tecnologia em Redes de Computadores do Instituto Federal do Rio Grande do Norte — Campus Natal-Central, no período letivo de 2024.2.
 
+**Nota**: Os repositórios anteriores foram removidos, e seus respectivos arquivos e conteúdos foram devidamente **organizados e centralizados neste repositório**, de forma a facilitar o acesso, a manutenção e a consulta ao material completo da disciplina.
+
 Disciplina concluída com êxito! ✅
 
 ---
