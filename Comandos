@@ -1,0 +1,56 @@
+#Fazer commit sem comentário:
+""" git commit --allow-empty-message -m '' """
+
+#Executar o container: 
+"""docker run -it nome-da-imagem"""
+
+#Montar imagem: 
+""" docker build -t nome-da-imagem . """
+
+"""docker build -t nome-da-imagem:tag (-t serve para criar uma tag para a imagem)"""
+
+#Montar imagem especificando o dockerfile
+"""docker build -f Dockerfile.bind9 -t meu-servidor-bind9 ."""
+
+#Verificar imagens: 
+"""docker images"""
+
+#Executar imagem: 
+"""docker run [opções] nome_da_imagem"""
+
+"""Simples: docker run nome_da_imagem"""
+
+"""Executar uma imagem interativa (para acesso ao terminal): docker run -it nome_da_imagem"""
+
+"""Publicar uma porta (para acessar serviços do container): docker run -p 8080:80 nome-da-imagem""" #Aqui, a porta 80 do container é mapeada para a porta 8080 do host.
+
+"""Montar um volume (para persistência de dados): docker run -v /caminho/do/host:/caminho/no/container nome-da-imagem"""
+
+"""Rodar em segundo plano (modo detach): docker run -d nome-da-imagem"""
+
+#Acessar container via terminal do vscode:
+"""docker exec -it nome_do_container bash"""
+
+#Listar containers em execução e parados:
+"""docker ps -a"""
+
+#Iniciar ou Parar um Container:
+"""docker start(stop) nome_ou_id_do_container"""
+
+#Remover um Container:
+"""docker rm nome_ou_id_do_container"""
+
+#Parar e Remover Vários Containers:
+"""docker stop $(docker ps -aq)"""
+
+"""docker rm $(docker ps -aq)"""
+
+#Remover Containers em Execução
+"""docker rm -f nome_ou_id_do_container"""
+
+
+#ZzZzZzZz
+"""docker run -d -p 53:53/udp -p 53:53/tcp ubuntu-bind"""
+
+"""docker container cp bind9:/etc/bind/db.local ."""
+
