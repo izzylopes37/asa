@@ -134,5 +134,3 @@ Disciplina concluída com êxito! ✅
 - Desenvolvido por: **Werllison Lopes Galvão**
 
 - Contato: werllison.galvao@escolar.ifrn.edu.br
-
----
