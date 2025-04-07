@@ -130,5 +130,6 @@ Este repositório contém todos os arquivos, scripts e configurações abordados
 ## 👨‍💻 Autor
 - Desenvolvido por: **Werllison Lopes Galvão**
 
-## 📧 Contato:
-- E-mail: werllison.galvao@escolar.ifrn.edu.br
+- Contato: werllison.galvao@escolar.ifrn.edu.br
+
+---
