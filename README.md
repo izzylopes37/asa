@@ -1,4 +1,4 @@
-# Projeto da disciplina Administração de Sistemas Abertos
+# Projeto Nº 1 da disciplina Administração de Sistemas Abertos
 
 ## Orientações
 * Configurar os registros corretamente no DNS.
