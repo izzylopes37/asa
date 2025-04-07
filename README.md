@@ -15,7 +15,7 @@ A infraestrutura é composta por:
 
 ### **E-mail - Postfix + Dovecot**
 
-(Implementação parcial - Em andamento)
+(Implementação parcial - Não está 100%)
 
 - Servidor de e-mail configurado com Postfix (SMTP) para envio de e-mails.
 - Dovecot (IMAP/POP3) configurado para o recebimento de e-mails.
@@ -23,7 +23,7 @@ A infraestrutura é composta por:
 
 ### **Webmail - Roundcube**
 
-(Implementação parcial - Em andamento)
+(Implementação parcial - Não está 100%)
 
 - Interface web para acesso aos e-mails do provedor.
 - Hospedado no container webmail, acessível via https://mail.barreta.com.br.
@@ -39,10 +39,12 @@ A infraestrutura é composta por:
 ### **Servidor Web - WordPress**
 - Os clientes `pirangi.com.br` e `buzios.com.br` possuem dois servidores WordPress (`web_NOME` e `web_NOME2`).
 - A **Configuração do Proxy** distribui as requisições entre os dois servidores.
+- A pasta do WordPress será criada dentro da pasta do respectivo cliente conforme o compose for executado.
 
 ### **Banco de Dados - MariaDB**
 - Cada cliente tem seu próprio banco de dados MariaDB.
 - Os bancos armazenam os dados dos sites WordPress.
+- O banco de dados será criado na pasta do respectivo cliente conforme o mesmo for executado no compose.
 
 ### **SSH - Acesso Remoto Seguro**
 - Implementado no `Provedor`, `cliente 1` e `cliente 2` para acesso administrativo.
@@ -52,7 +54,7 @@ A infraestrutura é composta por:
 
 ## 🏗️ **Estrutura do Projeto**
 ```bash
-📂 ASA-CLOUD/
+📂 Projeto-Final/
 │── 📂 Provedor/
 │   ├── 📂 dns/ # Servidor DNS
 │   │   ├── Dockerfile
