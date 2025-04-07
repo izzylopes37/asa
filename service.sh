@@ -10,7 +10,7 @@ help() {
     echo "  start        - Executa o Docker Compose para criar e inicializar os containers."
     echo "  stop         - Para todos os containers."
     echo "  remove       - Apaga todos os containers e imagens."
-    echo "  <dns|proxy|asa-server|asa-server2> restart - Reinicia o container específico."
+    echo "  <dns|proxy|server1|server2> restart - Reinicia o container específico."
 }
 
 start_compose() {
@@ -30,7 +30,7 @@ remove_containers() {
 
 restart_container() {
     if [ -z "$SERVICE" ]; then
-        echo "Erro: informe o nome do container para reiniciar (dns, proxy, asa-server, asa-server2)."
+        echo "Erro: informe o nome do container para reiniciar (dns, proxy, server1, server2)."
         exit 1
     fi
     echo "Reiniciando o container $SERVICE..."
@@ -52,7 +52,7 @@ case $SERVICE in
     remove)
         remove_containers
         ;;
-    dns|proxy|asa-server|asa-server2)
+    dns|proxy|server1|server2)
         if [ "$ACTION" == "restart" ]; then
             restart_container
         else
