@@ -1,7 +1,8 @@
 # ADMINISTRAÇÃO DE SISTEMAS ABERTOS (ASA)  
-Disciplina concluída com êxito — 2024.2 ✅
 
-Este repositório contém todos os arquivos, scripts e configurações abordados durante o semestre da disciplina **Administração de Sistemas Abertos** no respectivo período.
+Este repositório reúne todos os arquivos, scripts e configurações desenvolvidos ao longo do semestre da disciplina **Administração de Sistemas Abertos**, pertencente ao curso superior de Tecnologia em Redes de Computadores do Instituto Federal do Rio Grande do Norte — Campus Natal-Central, no período letivo de 2024.2.
+
+Disciplina concluída com êxito! ✅
 
 ---
 
